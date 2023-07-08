@@ -16,8 +16,8 @@ import os
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
 
-# os.chdir('/home/work/Cycle-GAN-summer2Winter/pix2pix/app-server/fastapi-server-upload')
-os.chdir('C:\\Users\\login\\Desktop\\main.get')
+os.chdir('/home/work/Cycle-GAN-summer2Winter/pix2pix/app-server/fastapi-server-upload')
+
 
 templates = Jinja2Templates(directory="templates")
 app = FastAPI()
